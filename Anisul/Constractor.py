@@ -7,4 +7,6 @@ def __init__(self, roll, gpa):
   self.gap = gap
 def display(self):
   print(f"Roll: {self.roll}, GPA: {self.gpa}")
-  
+
+rahim = Student(101, 3.75)
+rahim.display()
